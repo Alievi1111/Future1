@@ -130,10 +130,19 @@ table {
 * {
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d5f56548abee90001f505d9/1717429844971-E5B8A7ACBNWG318GBGFU/derelict2_.jpg?format=2500w");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
 .headerContainer {
   width: 100%;
   background-color: black;
-
+  height: 100px;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -142,7 +151,6 @@ table {
 .mainContainer {
   display: flex;
   width: 452px;
-  background-color: black;
   justify-content: space-between;
   padding-left: 25px;
 }
@@ -151,7 +159,7 @@ table {
   gap: 12px;
 }
 .aboutImg h3 {
-  padding-top: 15px;
+  padding-top: 42px;
 }
 .menuContainer {
   display: flex;
@@ -162,7 +170,7 @@ table {
   gap: 12px;
 }
 .aboutMenu h3 {
-  padding-top: 15px;
+  padding-top: 42px;
 }
 .logoContainer {
   display: flex;
@@ -191,5 +199,32 @@ table {
   gap: 12px;
 }
 .basketContainer h3 {
-  padding-top: 15px;
+  padding-top: 42px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 62px;
+  margin-top: 96px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.mainContainerTwo {
+  display: flex;
+  justify-content: space-between;
+}
+.imgContainer {
+  display: flex;
+}
+.imgContainer button {
+  width: 40px;
+  height: 40px;
+  margin-top: 180px;
+  background-color: black;
+}
+.aboutBtn {
+  margin-right: 20px;
+}
+.backgroungImg img {
+  max-width: 1440px;
 }
